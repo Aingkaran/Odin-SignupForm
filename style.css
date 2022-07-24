@@ -70,12 +70,79 @@
     z-index: -3;
     top: 35vh;
     padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.form-input{
+    display: flex;
+    gap: 2vw
+}
+.formformat{
+    display:flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.right-bottom{
+    background-color: grey;
+    width:65vw;
+    height: 30vh;
+    position:absolute;
+    left: 35vw;
+    z-index: -4;
+    top: 70vh;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
 
 
 }
 
-.email{
-    display:flex;
-    flex-direction: column;
-    width: 10vw;
+
+
+.bottom{
+    position: absolute;
+    top: 40vh;
+    z-index: 1;
+}
+
+.login{
+    position:relative;
+   text-align: center;
+   display:flex;
+   top: 12vh;
+   gap: 0.5vw;
+}
+
+.login-link{
+    position:relative;
+    top: 1.9vh;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 3vh;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2b792e;
+    border: none;
+    border-radius: 15px;
 }
