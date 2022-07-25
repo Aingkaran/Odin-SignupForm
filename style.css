@@ -88,13 +88,13 @@
 .form-left{
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 2vh;
 }
 
 .form-right{
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 2vh;
 }
 
 .right-bottom{
@@ -126,6 +126,7 @@
    display:flex;
    top: 12vh;
    gap: 0.5vw;
+   
 }
 
 .login-link{
@@ -146,3 +147,27 @@
     border: none;
     border-radius: 15px;
 }
+input{
+    border: 2px solid;
+    border-color:#E5E7EB;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+input:valid{
+    border-color:#2b792e
+}
+
+input:invalid{
+    border-color: red
+}
+
+
+
+
+input:focus {
+    background-color: lightblue;
+}
+
